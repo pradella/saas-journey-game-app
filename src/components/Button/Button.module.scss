@@ -1,0 +1,66 @@
+.root {
+  border: 0;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  background-color: #ccc;
+  color: #333;
+  font-size: medium;
+  letter-spacing: -0.025rem;
+  cursor: pointer;
+}
+
+.outline {
+  border: 1px solid #eee;
+  background-color: #333;
+  color: #eee;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
+
+.outline.blue {
+  background-color: rgb(184, 184, 255);
+  color: blue;
+  border-color: blue;
+}
+
+.outline.red {
+  background-color: rgb(255, 193, 193);
+  color: red;
+  border-color: red;
+}
+
+.outline.green {
+  background-color: rgb(208, 255, 208);
+  color: green;
+  border-color: green;
+}
+
+.outline.purple {
+  background-color: rgb(255, 206, 255);
+  color: purple;
+  border-color: purple;
+}
+
+.sm {
+  font-size: small;
+  padding: 5px 8px;
+}
