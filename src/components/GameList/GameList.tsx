@@ -9,7 +9,7 @@ type GameListProps = {
 
 function GameList({ onSelectGame }: GameListProps) {
   // Next steps:
-  // - Carregar no onload da páginaa
+  // - Carregar no onload da página
   // - Criar campo de busca de jogos
   // - Exibir de 10 em 10 (paginação)
   // - Ordenação

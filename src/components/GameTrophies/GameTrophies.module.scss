@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.trophy {
+  display: flex;
+  align-items: center;
+}
+
+.check {
+  color: rgb(24, 230, 24);
+  margin-left: 5px;
+}
+
+.select {
+  margin-top: 10px;
+  align-self: baseline;
+}
+
+.button {
+  align-self: baseline;
+}

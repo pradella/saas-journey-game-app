@@ -8,6 +8,7 @@ type ButtonProps = {
   size?: 'sm' | 'md' | 'lg';
   colorScheme?: 'red' | 'purple' | 'blue' | 'green';
   onClick?: () => void;
+  className?: string;
 };
 
 function Button({
@@ -15,12 +16,14 @@ function Button({
   outline,
   size,
   colorScheme,
+  className,
   onClick,
 }: ButtonProps) {
   return (
     <button
       className={[
         styles.root,
+        className ? className : '',
         outline ? styles.outline : '',
         size ? styles[size] : '',
         colorScheme ? styles[colorScheme] : '',

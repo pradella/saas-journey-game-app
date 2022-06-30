@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Button from '../Button/Button';
 import GameCover from '../GameCover/GameCover';
 import GameStatus from '../GameStatus/GameStatus';
+import GameTrophies from '../GameTrophies/GameTrophies';
 import StarRating from '../StarRating/StarRating';
 import styles from './GameDetail.module.scss';
 
@@ -36,6 +37,7 @@ function GameDetail({ url, onBack }: GameDetailProps) {
           ) : null}
         </div>
       </main>
+      <GameTrophies />
     </div>
   );
 }
